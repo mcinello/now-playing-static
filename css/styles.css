@@ -195,3 +195,74 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+/*FIRST RESPONSIVE BREAKPOINT 768PX*/
+
+@media ( min-width: 768px )
+{
+  main{
+    display: inline-block;
+    width: 89.5%;
+  }
+
+  header
+  {
+    display: inline-block;
+    width: 10%;
+  }
+
+/*NAV STYLES*/
+
+.site-nav {
+  position: fixed;
+  left: 0;
+  width: 5.4rem;
+  height: 100%;
+  display: inline-block;
+  height: 100%;
+  z-index: 1;
+}
+
+li.site-nav-item{
+  display: block;
+  float: none;
+
+}
+.site-logo {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.05rem;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  z-index: 2;
+}
+
+.site-nav-list
+{
+  padding: 6em 0 0 0.8em;
+}
+
+.movie-overview
+{
+  display: block;
+}
+
+/*FOOTER*/
+
+footer
+{
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-nav
+{
+  display: inline-block;
+}
+
+section.about
+{
+  display: inline-block;
+}
