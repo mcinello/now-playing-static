@@ -206,10 +206,10 @@ figure {
   {
     padding-bottom: 0;
   }
-  /*main
+  main
   {
-    display: inline-block;
-  }*/
+    margin-left: 80px;
+  }
 
   header
   {
@@ -221,10 +221,6 @@ figure {
     width: 80px;
   }
 
-.movie
-{
-  margin-left: 80px;
-}
 /*NAV STYLES*/
 
 .site-nav {
@@ -307,7 +303,9 @@ article:first-child .movie-overview
 
   article:nth-child(n+2)
   {
-    width: 25%;
+    width: 33.4%;
     display: inline-block;
+    margin: 0 0 -4.3px -3.2px;
+
   }
 }
