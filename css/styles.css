@@ -209,12 +209,12 @@ figure {
   main
   {
     display: inline-block;
+    float: right;
   }
 
   header
   {
     display: inline-block;
-    width: 10%;
   }
 
   .site-header
@@ -233,7 +233,6 @@ figure {
   left: 0;
   width: 5.4rem;
   height: 100%;
-  display: inline-block;
   height: 100%;
   z-index: 1;
 }
@@ -247,10 +246,6 @@ li.site-nav-item{
   position: fixed;
   top: 0.5rem;
   left: 0.05rem;
-  width: 80px;
-  height: 80px;
-  margin: 0;
-  z-index: 2;
 }
 
 .site-nav-list
