@@ -281,9 +281,29 @@ section.about
 /*SECOND RESPONSIVE BREAKPOINT 992PX*/
 @media ( min-width: 992px )
 {
+
 .movie-overview
 {
   display: none;
 }
 
+.movie-poster
+{
+  display: block;
+}
+
+article:first-child .movie-overview
+  {
+    display: block;
+  }
+
+  article:first-child .movie-poster
+  {
+    display: none;
+  }
+
+  article:nth-child(n+2) .movie-backdrop
+  {
+    display: none;
+  }
 }
