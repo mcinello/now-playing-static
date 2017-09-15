@@ -296,6 +296,11 @@ article:first-child .movie-overview
     display: none;
   }
 
+  article:first-child .movie-backdrop
+  {
+    margin-top: -20px;
+  }
+
   article:nth-child(n+2) .movie-backdrop
   {
     display: none;
@@ -305,7 +310,16 @@ article:first-child .movie-overview
   {
     width: 33.4%;
     display: inline-block;
-    margin: 0 0 -4.3px -3.2px;
+    margin: 0 0 -5px -3.2px;
 
+  }
+}
+
+/*BREAKPOINT 3 - SIZE BASED ON NATIVE SIZE OF DR. STRANGE PHOTO*/
+@media ( min-width: 1280px )
+{
+  body
+  {
+    background: red;
   }
 }
