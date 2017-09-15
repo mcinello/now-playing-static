@@ -201,9 +201,14 @@ figure {
 
 @media ( min-width: 768px )
 {
-  main{
+
+  body
+  {
+    padding-bottom: 0;
+  }
+  main
+  {
     display: inline-block;
-    width: 89.5%;
   }
 
   header
@@ -212,6 +217,15 @@ figure {
     width: 10%;
   }
 
+  .site-header
+  {
+    width: 80px;
+  }
+
+.movie
+{
+  margin-left: 80px;
+}
 /*NAV STYLES*/
 
 .site-nav {
@@ -242,6 +256,7 @@ li.site-nav-item{
 .site-nav-list
 {
   padding: 6em 0 0 0.8em;
+
 }
 
 .movie-overview
@@ -265,4 +280,15 @@ footer
 section.about
 {
   display: inline-block;
+}
+}
+
+/*SECOND RESPONSIVE BREAKPOINT 992PX*/
+@media ( min-width: 992px )
+{
+.movie-overview
+{
+  display: none;
+}
+
 }
