@@ -206,11 +206,10 @@ figure {
   {
     padding-bottom: 0;
   }
-  main
+  /*main
   {
     display: inline-block;
-    float: right;
-  }
+  }*/
 
   header
   {
@@ -232,7 +231,6 @@ figure {
   position: fixed;
   left: 0;
   width: 5.4rem;
-  height: 100%;
   height: 100%;
   z-index: 1;
 }
@@ -305,5 +303,11 @@ article:first-child .movie-overview
   article:nth-child(n+2) .movie-backdrop
   {
     display: none;
+  }
+
+  article:nth-child(n+2)
+  {
+    width: 25%;
+    display: inline-block;
   }
 }
