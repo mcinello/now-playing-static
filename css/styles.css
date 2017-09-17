@@ -201,7 +201,6 @@ figure {
 
 @media ( min-width: 768px )
 {
-
   body
   {
     padding-bottom: 0;
@@ -221,137 +220,103 @@ figure {
     width: 80px;
   }
 
-/*NAV STYLES*/
+  /*NAV STYLES*/
 
-.site-nav {
-  position: fixed;
-  left: 0;
-  width: 5.4rem;
-  height: 100%;
-  z-index: 1;
-}
+  .site-nav {
+    position: fixed;
+    left: 0;
+    width: 5.4rem;
+    height: 100%;
+    z-index: 1;
+  }
 
-li.site-nav-item{
-  display: block;
-  float: none;
+  li.site-nav-item{
+    display: block;
+    float: none;
 
-}
-.site-logo {
-  position: fixed;
-  top: 0.5rem;
-  left: 0.05rem;
-}
+  }
+  .site-logo {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.05rem;
+  }
 
-.site-nav-list
-{
-  padding: 6em 0 0 0.8em;
+  .site-nav-list
+  {
+    padding: 6em 0 0 0.8em;
 
-}
+  }
 
-.movie-overview
-{
-  display: block;
-}
+  .movie-overview
+  {
+    display: block;
+  }
 
-/*FOOTER*/
+  /*FOOTER*/
 
-footer
-{
-  background-color: #333;
-  color: #fff;
-  clear: both;
-}
+  footer
+  {
+    background-color: #333;
+    color: #fff;
+    clear: both;
+  }
 
-.footer-nav
-{
-  display: inline-block;
-}
-
-section.about
-{
-  display: inline-block;
-}
+  .footer-nav,
+  section.about
+  {
+    display: inline-block;
+  }
 }
 
 /*SECOND RESPONSIVE BREAKPOINT 992PX*/
 @media ( min-width: 992px )
 {
-
-.movie-overview,
-article:first-child .movie-poster,
-article:nth-child(n+2) .movie-backdrop
-{
-  display: none;
-}
-
-.movie-poster,
-article:first-child .movie-details .movie-overview
-{
-  display: block;
-}
-
-/*article:first-child .movie-details
-  {
-    display: block;
-  }*/
-
-  /*article:first-child .movie-poster
+  .movie-overview,
+  article:first-child .movie-poster,
+  article:nth-child(n+2) .movie-backdrop
   {
     display: none;
-  }*/
+  }
+
+  .movie-poster,
+  article:first-child .movie-details .movie-overview
+  {
+    display: block;
+  }
 
   article:first-child .movie-backdrop
   {
     margin-top: -20px;
   }
 
-  /*article:nth-child(n+2) .movie-backdrop
-  {
-    display: none;
-  }*/
-
   article:nth-child(n+2)
   {
     width: 33.33%;
     float: left;
-    /*display: inline-block;
-    margin: 0 0 -3px -3px;*/
-
   }
 }
 
 /*BREAKPOINT 3 - SIZE BASED ON NATIVE SIZE OF DR. STRANGE PHOTO*/
-/*@media ( min-width: 1281px )
+@media ( min-width: 1281px )
 {
-  body
-  {
-    background: red;
-  }
-
-  main
-  {
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
   article:first-child .movie-backdrop
   {
     display: none;
   }
 
+  article .movie-overview
+  {
+    display: block;
+  }
+
   article:first-child .movie-poster
   {
     display: block;
-    float: left;
-    width: 33%;
   }
 
-  article
+  article:first-child
   {
-    position: relative;
-
+    width: 33.33%;
+    /*float: left;*/
   }
-  .movie-overview
-  {
-    display: inline-block;
-  }*/
+}
