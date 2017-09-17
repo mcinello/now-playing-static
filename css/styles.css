@@ -317,6 +317,10 @@ figure {
   article:first-child
   {
     width: 33.33%;
-    /*float: left;*/
+    float: left;
   }
+  article:nth-child(16)
+{
+  clear: both;
+}
 }
